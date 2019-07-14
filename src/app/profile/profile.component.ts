@@ -10,11 +10,11 @@ import {Repo} from '../repo';
   styleUrls: ['./profile.component.css'],
   providers:[ProfileService]
 })
+
 export class ProfileComponent implements OnInit {
     
   user: User;
-  // repo: Repo;
-  // repos: Repo[];
+  
  constructor(private profileService: ProfileService, public repoService: ProfileService) { 
  this.user = this.profileService.user;
  }
