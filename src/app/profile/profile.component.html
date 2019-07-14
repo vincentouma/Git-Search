@@ -53,20 +53,20 @@
     <div class="row">
       
         <div class="card-body" *ngFor='let repo of repoService.items ; let i = index'>
-            <div class="col-md-6">
+            <div class="col-md-10">
           <h4 class="card-title"> {{repoService.items[i].name}}</h4>
           <div class="card-text ">
             <p>{{repoService.items[i].description}}</p>
           </div>
           </div>
-          <div class="col-md-6">
-            <p class="posi"><a href="{{repoService.items[i].html_url}}" class="btn btn-success">View Repository</a></p>
-            <p class="posi"><a href="{{repoService.items[i].homepage}}" class="btn btn-success">See me</a></p>
-            <p class="posi"><a href="{{repoService.items[i].clone_url}}" class="btn btn-success">Clone</a></p>
+          <!-- <div class="col-md-6"> -->
+            <p class="posi"><a href="{{repoService.items[i].html_url}}" class=" btn-success">View Repository</a></p>
+            <p class="posi"><a href="{{repoService.items[i].homepage}}" class=" btn-success">See me</a></p>
+            <p class="posi"><a href="{{repoService.items[i].clone_url}}" class=" btn-success">Clone</a></p>
           </div>
         </div>
         <hr>
-      </div>
-    </div>
+      
+    
   </div>
 </div>
