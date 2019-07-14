@@ -5,32 +5,23 @@
   </div>
   <app-profile-form></app-profile-form>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-6">
+      <div class="row">
       <img src="{{user.avatar_url}}" height="200" class="img-circle">
     </div>
-    <div class="col-md-6">
-      <table>
-        <tr>
-          <td>Name: </td>
-          <td class="label">{{user.name}}</td>
-        </tr>
-        <tr>
-          <td>Github username: </td>
-          <td class="label">{{user.login}}</td>
-        </tr>
-        <tr>
-          <td>Email Information: </td>
-          <td class="label">{{user.email}}</td>
-        </tr>
-        <tr>
-          <td>Location: </td>
-          <td class="label">{{user.location}}</td>
-        </tr>
-        <tr>
-          <td>Repositories: </td>
-          <td class="label">{{user.public_repos}}</td>
-        </tr>
-      </table>
+      </div>
+        <div class="col-md-6">
+        <div class="row"><p>{{user.name}}</p> </div> 
+       
+         <div class="row"><p>{{user.email}}</p></div>
+        
+         
+        <div class="row"><p>{{user.public_repos}}</p></div>
+         
+        
+           
+        
+      
     </div>
   </div>
   <a href="{{user.html_url}}" class="btn btn-success" id="view">View Profile</a>
@@ -38,7 +29,7 @@
   <hr>
   <div class="card">
     <div class="card-header">
-      <h2>Check The User Repositories Down Here.</h2>
+      <h2>User Repositories.</h2>
     </div>
     <div class="card-body" *ngFor='let repo of repoService.items ; let i = index'>
       <h4 class="card-title"> {{repoService.items[i].name}}</h4>

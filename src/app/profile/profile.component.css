@@ -26,9 +26,9 @@ td{
   text-align: left;
   padding: 10px;
  }
-tr:nth-child(even) {
-  background-color: #dddddd;
- }
+/* tr:nth-child(even) {
+  /* background-color: #dddddd; }*/
+  
 .label{
   text-align: center
  }
@@ -54,9 +54,9 @@ font-size: 35px;
 font-family: 'Chewy', cursive;
 }
 
-.card{
-background-color: rgba(252, 252, 252, 0.5);
-}
+/* .card{
+background-color: rgba(252, 252, 252, 0.5); } */
+
 .card-body{
 text-align: center;
 }
