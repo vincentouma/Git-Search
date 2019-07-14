@@ -3,12 +3,12 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Description
-This is a website where you can search Github users, view their repositories and descriptions.
-
-#### By **Joseph Muema**
+This an angular app that enable user to search for public repositories of git Hub users by  putting  there user name on the search  form .
+#### Author**
+Vincent Ouma
 
 ## Link to site
- https://jmuema.github.io/git-search/
+https://github.com/vincentouma/Git-search
 
  ## Prerequisites
   You need the following to make edits to the repository:
@@ -17,23 +17,24 @@ This is a website where you can search Github users, view their repositories and
   3. NPM
   
 ## Setup Instructions
-  1. Copy the clone link provided in the repository
-  2. Start your command line
-  3. Run the git clone command with the copied links
-  4. Make changes to the remote(s) used to point to your repository
-  5. follow the angular instructions below.
+  1. Clone link https://github.com/vincentouma/Git-search
+  2. Open with your fevorite editor
+  3. ng serve to open at a local host
+  4. Open the link provided at the terminal
+  
   
   ## technologies used
-1. bootstrap
-2. NPM
+1. Typescript
+2. CSS/Bootstrap
 3. Angular
-4. Visual Studio Code
+
 
 ## Known bugs
 No known bugs yet.
 
 ## Support and Contact details
-Incase of any enquires reach me at:jmuema95@gmail.com
+Incase of any enquires reach me at:
+vinceouma@gmail.com
 
 ## Development server
 
@@ -62,7 +63,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## License
 MIT License
 
-Copyright (c) [2019] [Joseph Muema Mwangangi]
+Copyright (c) [2019] [Vincent Ouma]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
