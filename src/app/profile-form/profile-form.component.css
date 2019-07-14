@@ -1,8 +1,10 @@
 form{
-  margin-left:800px;
+  /* margin-left:50%;
+  margin-right: 50%; */
+  text-align: center;
 }
 .form-control{
-  width:300px;
+  width:100%;
   margin: 10px;
 }
 button{

@@ -1,7 +1,7 @@
 .jumbotron{
   text-align: center;
-  /* background-color: rgb(15, 15, 15); */
-  color: aliceblue;
+  background-color: rgb(15, 15, 15); 
+  /* color: white; */
  }
 .img-circle{
   border-radius:600px;
@@ -37,7 +37,7 @@ a{
 }
 
 hr{
- box-shadow: 0 0 10px 1px black;
+ box-shadow: 0 0 10px 1px white;
  margin-top: 50px;
 }
 #view{
@@ -62,6 +62,9 @@ text-align: center;
 }
 h1{
 font-family: 'Baloo Bhai', cursive;
+color:white;
+font-weight:800;
+
 }
 h2{
 animation: shake 0.5s;
