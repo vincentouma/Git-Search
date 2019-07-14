@@ -60,16 +60,15 @@ background-color: rgba(252, 252, 252, 0.5); } */
 .card-body{
 text-align: center;
 }
-h1{
+h1,h2{
 font-family: 'Baloo Bhai', cursive;
 color:white;
 font-weight:800;
 
 }
-h2{
-animation: shake 0.5s;
-animation-iteration-count: infinite; 
-}
+/* h2{
+color:white; 
+} */
 .card-title{
 font-family: 'Boogaloo', cursive;
 color: blue;
@@ -82,7 +81,10 @@ a{
 text-align: center
 }
 .card-text{
-color: wheat;
+  border: 4 px solid aqua;
+color: white;
+background-color: slategrey;
+
 }
 #detail{
   text-align: center;
@@ -93,4 +95,8 @@ color: wheat;
   background-repeat: no-repeat;
   background-position: center;
  
+}
+.card{
+  background-image: url('/assets/_evstratov_-InsHJ5sg2vc-unsplash.jpg')
+
 }
