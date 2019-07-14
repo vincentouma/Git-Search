@@ -1,9 +1,9 @@
 <div class="container-fluid">
   <div class="jumbotron">
-    <img src="/assets/landingpg.png" width="80%" height="170px"> 
+    <img src="/assets/landingpg.png" width="80%" height="170px">
     <h1>Search</h1>
   </div>
-  
+
   <app-profile-form></app-profile-form>
   <div class="row" id="row">
     <div class="col-md-3">
@@ -44,20 +44,29 @@
   </div>
   <a href="{{user.html_url}}" class="btn btn-success" id="view">View Profile</a>
   <hr>
- 
+
   <div class="card">
     <div class="card-header">
       <h2>User Repositories.</h2>
     </div>
-    <div class="card-body" *ngFor='let repo of repoService.items ; let i = index'>
-      <h4 class="card-title"> {{repoService.items[i].name}}</h4>
-      <div class="card-text ">
-        <p>{{repoService.items[i].description}}</p>
-        <p class="posi"><a href="{{repoService.items[i].html_url}}" class="btn btn-success">View Repository</a></p>
-        <p class="posi"><a href="{{repoService.items[i].homepage}}" class="btn btn-success">See me</a></p>
-        <p class="posi"><a href="{{repoService.items[i].clone_url}}" class="btn btn-success">Clone</a></p>
+
+    <div class="row">
+      
+        <div class="card-body" *ngFor='let repo of repoService.items ; let i = index'>
+            <div class="col-md-6">
+          <h4 class="card-title"> {{repoService.items[i].name}}</h4>
+          <div class="card-text ">
+            <p>{{repoService.items[i].description}}</p>
+          </div>
+          </div>
+          <div class="col-md-6">
+            <p class="posi"><a href="{{repoService.items[i].html_url}}" class="btn btn-success">View Repository</a></p>
+            <p class="posi"><a href="{{repoService.items[i].homepage}}" class="btn btn-success">See me</a></p>
+            <p class="posi"><a href="{{repoService.items[i].clone_url}}" class="btn btn-success">Clone</a></p>
+          </div>
+        </div>
+        <hr>
       </div>
-      <hr>
     </div>
   </div>
 </div>
