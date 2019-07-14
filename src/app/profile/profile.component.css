@@ -30,7 +30,7 @@ td{
   /* background-color: #dddddd; }*/
   
 .label{
-  text-align: center
+  text-align: end;
  }
 a{
   float: right;

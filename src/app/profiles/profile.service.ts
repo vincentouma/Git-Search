@@ -13,7 +13,7 @@ export class ProfileService {
   private username: string;
   items;
   constructor(private http: HttpClient) {
-    this.user = new User(' ', ' ', ' ', ' ', ' ', 0, ' ');
+    this.user = new User(' ', ' ', ' ', ' ', ' ', 0, ' ', 0, 0);
     this.repo = new Repo(' ', ' ', ' ', ' ', ' ');
   }
   getProfileInfo(username) {
@@ -25,6 +25,8 @@ export class ProfileService {
       location: string;
       public_repos: number;
       html_url: string;
+      followers: number;
+      following: number;
     }
     const promise = new Promise((resolve, reject) => {
       this.http.get<ApiResponse>(environment.apiUrl + username + environment.apikey).toPromise().then(profile => {
@@ -35,6 +37,8 @@ export class ProfileService {
         this.user.location = profile.location;
         this.user.public_repos = profile.public_repos;
         this.user.html_url = profile.html_url;
+        this.user .followers= profile.followers;
+        this.user.following= profile.following
 
         console.log(profile);
         resolve();
