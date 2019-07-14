@@ -79,9 +79,15 @@ a{
 text-align: center
 }
 .card-text{
-color: gray
+color: wheat;
 }
 #detail{
   text-align: center;
   padding-left: 30%;
+}
+#row{
+  background-image: url('/assets/back.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+ 
 }
