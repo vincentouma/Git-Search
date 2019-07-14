@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Searching} from '../searching ';
+import { Searching } from '../searching ';
 import { ProfileService } from '../profiles/profile.service';
 
 
@@ -8,13 +8,14 @@ import { ProfileService } from '../profiles/profile.service';
   templateUrl: './profile-form.component.html',
   styleUrls: ['./profile-form.component.css']
 })
+
 export class ProfileFormComponent implements OnInit {
 
   submitSearch(name) {
     this.profileService.getProfileInfo(name.target.value);
     this.repoService.getRepoInfo(name.target.value);
   }
-   constructor(private profileService: ProfileService, private repoService: ProfileService) { }
+  constructor(private profileService: ProfileService, private repoService: ProfileService) { }
   ngOnInit() {
   }
- }
+}
