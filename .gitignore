@@ -44,3 +44,12 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+
+export const environment = {
+  production: false,
+  apiUrl: 'https://api.github.com/users/',
+  apikey: '?access_token=8fd849a6fa9b26c9b3a5ecee6cc562bbb7f3c214',
+  apiRepokey: '/repos?access_token=8fd849a6fa9b26c9b3a5ecee6cc562bbb7f3c214',
+};
