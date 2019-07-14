@@ -5,23 +5,32 @@
   </div>
   <app-profile-form></app-profile-form>
   <div class="row">
-    <div class="col-md-6">
-      <div class="row">
+    <div class="col-md-3">
       <img src="{{user.avatar_url}}" height="200" class="img-circle">
     </div>
-      </div>
-        <div class="col-md-6">
-        <div class="row"><p>{{user.name}}</p> </div> 
-       
-         <div class="row"><p>{{user.email}}</p></div>
-        
-         
-        <div class="row"><p>{{user.public_repos}}</p></div>
-         
-        
-           
-        
-      
+    <div class="col-md-6">
+      <table>
+        <tr>
+          <td>Name: </td>
+          <td class="label">{{user.name}}</td>
+        </tr>
+        <tr>
+          <td>Github username: </td>
+          <td class="label">{{user.login}}</td>
+        </tr>
+        <tr>
+          <td>Email Information: </td>
+          <td class="label">{{user.email}}</td>
+        </tr>
+        <tr>
+          <td>Location: </td>
+          <td class="label">{{user.location}}</td>
+        </tr>
+        <tr>
+          <td>Repositories: </td>
+          <td class="label">{{user.public_repos}}</td>
+        </tr>
+      </table>
     </div>
   </div>
   <a href="{{user.html_url}}" class="btn btn-success" id="view">View Profile</a>
