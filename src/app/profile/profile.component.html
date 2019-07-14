@@ -60,9 +60,13 @@
           </div>
           </div>
           <!-- <div class="col-md-6"> -->
-            <p class="posi"><a href="{{repoService.items[i].html_url}}" class=" btn-success">View Repository</a></p>
-            <p class="posi"><a href="{{repoService.items[i].homepage}}" class=" btn-success">See me</a></p>
-            <p class="posi"><a href="{{repoService.items[i].clone_url}}" class=" btn-success">Clone</a></p>
+              <div class="btn-toolbar">
+            <p class="posi"><a href="{{repoService.items[i].html_url}}" class=" btn-success">See Repository</a> </p>
+
+            <p class="posi"><a href="{{repoService.items[i].homepage}}" class=" btn-success">Check Profile</a> </p>
+            <p class="posi"><a href="{{repoService.items[i].clone_url}}" class=" btn-success">Clone Repo</a>
+            </p>
+            </div>
           </div>
         </div>
         <hr>
