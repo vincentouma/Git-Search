@@ -37,8 +37,8 @@ export class ProfileService {
         this.user.location = profile.location;
         this.user.public_repos = profile.public_repos;
         this.user.html_url = profile.html_url;
-        this.user .followers= profile.followers;
-        this.user.following= profile.following
+        this.user.followers = profile.followers;
+        this.user.following = profile.following
 
         console.log(profile);
         resolve();

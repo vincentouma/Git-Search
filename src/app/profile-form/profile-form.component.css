@@ -1,18 +1,22 @@
-form{
+form {
   /* margin-left:50%;
   margin-right: 50%; */
   text-align: center;
   box-sizing: border-box;
-  
+
 }
-.form-control{
-  width:100%;
+
+.form-control {
+  width: 100%;
   margin: 10px;
 }
-button{
+
+button {
   background-color: rgb(172, 212, 218);
-  margin-left:100px;
- }
-i{
-  width: 100px;;
+  margin-left: 100px;
+}
+
+i {
+  width: 100px;
+  ;
 }
