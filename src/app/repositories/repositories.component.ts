@@ -13,7 +13,7 @@ export class RepositoriesComponent implements OnInit {
 
   repo: Repo;
   constructor(private profileService: ProfileService, public repoService: ProfileService) {
-    // console.log(this.repoService.getRepoInfo(this.username));
+    
 
   }
   ngOnInit() {
