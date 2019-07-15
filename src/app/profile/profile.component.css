@@ -1,107 +1,124 @@
-.jumbotron{
+.jumbotron {
   text-align: center;
-  background-color: rgb(15, 15, 15); 
+  background-color: rgb(15, 15, 15);
 
   /* color: white; */
- }
-.img-circle{
-  border-radius:600px;
+}
+
+.img-circle {
+  border-radius: 600px;
   float: right;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-#title{
+
+#title {
   text-align: center
 }
-table{
+
+table {
   border: 2px solid aqua;
   border-collapse: collapse;
   border-style: outset;
-  border-width:2px;
-  width:100%;
+  border-width: 2px;
+  width: 100%;
   height: 100%;
   text-align: center;
 }
-td{
+
+td {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 10px;
- }
+}
+
 /* tr:nth-child(even) {
   /* background-color: #dddddd; }*/
-  
-.label{
+
+.label {
   text-align: end;
- }
-a{
+}
+
+a {
   float: right;
 }
 
-hr{
- box-shadow: 0 0 10px 1px white;
- margin-top: 50px;
+hr {
+  box-shadow: 0 0 10px 1px white;
+  margin-top: 50px;
 }
-#view{
-float: left;
-margin-left: 183px;
+
+#view {
+  float: left;
+  margin-left: 183px;
 }
-.line{
- width: 20px;
+
+.line {
+  width: 20px;
 }
-.card-header{
-text-align: center;
-margin-top: 20px;
-font-size: 35px;
-font-family: 'Chewy', cursive;
+
+.card-header {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: 'Chewy', cursive;
 }
 
 /* .card{
 background-color: rgba(252, 252, 252, 0.5); } */
 
-.card-body{
+.card-body {
   border: 4px solid aqua;
-text-align: center;
+  text-align: center;
 }
-h1,h2{
-font-family: 'Baloo Bhai', cursive;
-color:white;
-font-weight:800;
+
+h1,
+h2 {
+  font-family: 'Baloo Bhai', cursive;
+  color: white;
+  font-weight: 800;
 
 }
+
 /* h2{
 color:white; 
 } */
-.card-title{
-font-family: 'Boogaloo', cursive;
-color: blue;
-font-family: sans-serif;
+.card-title {
+  font-family: 'Boogaloo', cursive;
+  color: blue;
+  font-family: sans-serif;
 }
-.posi{
-margin-right: 740px;
+
+.posi {
+  margin-right: 740px;
 }
-a{
-text-align: center
+
+a {
+  text-align: center
 }
-.card-text{
+
+.card-text {
   border: 4 px solid aqua;
   border-collapse: separate;
-border-spacing: 15px;
-color: white;
-background-color: slategrey;
+  border-spacing: 15px;
+  color: white;
+  background-color: slategrey;
 
 
 }
-#detail{
+
+#detail {
   text-align: center;
   padding-left: 30%;
 }
-#row{
+
+#row {
   background-image: url('/assets/back.jpeg');
   background-repeat: no-repeat;
   background-position: center;
- 
-}
-.card{
-  background-image: url('/assets/_evstratov_-InsHJ5sg2vc-unsplash.jpg')
 
+}
+
+.card {
+  background-image: url('/assets/_evstratov_-InsHJ5sg2vc-unsplash.jpg')
 }
