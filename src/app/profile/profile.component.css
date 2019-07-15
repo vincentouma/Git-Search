@@ -1,6 +1,7 @@
 .jumbotron{
   text-align: center;
   background-color: rgb(15, 15, 15); 
+
   /* color: white; */
  }
 .img-circle{
@@ -83,8 +84,11 @@ text-align: center
 }
 .card-text{
   border: 4 px solid aqua;
+  border-collapse: separate;
+border-spacing: 15px;
 color: white;
 background-color: slategrey;
+
 
 }
 #detail{
